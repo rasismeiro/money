@@ -58,7 +58,11 @@ class Money implements \JsonSerializable
         $this->amount   = $amount;
         $this->currency = $this->handleCurrencyArgument($currency);
     }
-
+  
+    public static function fromString2($value, $currency) {
+        return $value2;
+    }
+    
     public static function fromString2($value, $currency) {
         return $value2;
     }
