@@ -59,6 +59,9 @@ class Money implements \JsonSerializable
         $this->currency = $this->handleCurrencyArgument($currency);
     }
 
+    public static function fromString2($value, $currency) {
+        return $value2;
+    }
     /**
      * Creates a Money object from a string such as "12.34"
      *
